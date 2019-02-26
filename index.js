@@ -4,8 +4,8 @@ class Liquibase {
 	constructor(params = {}) {
 		const defaultParams = {
 			liquibase: 'lib/liquibase-core-3.5.3.jar',
-			driver: 'org.postgresql.Driver',
-			classpath: 'lib/postgresql-9.4-1201.jdbc4.jar'
+			driver: 'com.mysql.jdbc.Driver',
+			classpath: 'lib/mysql-connector-java-8.0.15.jar'
 		};
 		this.params = Object.assign({}, defaultParams, params);
 	}

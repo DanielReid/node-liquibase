@@ -1,13 +1,13 @@
 {
-  "name": "liquibase",
-  "version": "0.0.3",
-  "description": "Node.js wrap for Liquibase",
+  "name": "liquibase-mysql",
+  "version": "0.0.1",
+  "description": "Node.js wrap for Liquibase + Mysql",
   "license": "MIT",
-  "repository": "pablodenadai/node-liquibase",
+  "repository": "hiz1991/node-liquibase",
   "author": {
-    "name": "Pablo De Nadai",
-    "email": "pablodenadai@gmail.com",
-    "url": "https://github.com/pablodenadai/node-liquibase"
+    "name": "Khizir Putcygov",
+    "email": "k.putcygov@gmail.com",
+    "url": "https://github.com/hiz1991/node-liquibase"
   },
   "engines": {
     "node": ">=6"
@@ -21,7 +21,7 @@
   "keywords": [
     "liquibase",
     "sql",
-    "postgresql",
+    "mysql",
     "migration"
   ],
   "dependencies": {},

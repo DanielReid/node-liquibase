@@ -8,4 +8,4 @@ addons:
     packages:
       - oracle-java8-set-default
 services:
-  - postgresql
+  - mysql
